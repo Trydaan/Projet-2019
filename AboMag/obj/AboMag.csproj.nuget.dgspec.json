@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Baptiste Lequeu\\Documents\\Esimed\\Projet 2019\\AboMag\\AboMag\\AboMag.csproj": {}
+    "C:\\Users\\Baptiste Lequeu\\Documents\\Esimed\\Projet 2019\\AboMag\\AboMag.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Baptiste Lequeu\\Documents\\Esimed\\Projet 2019\\AboMag\\AboMag\\AboMag.csproj": {
+    "C:\\Users\\Baptiste Lequeu\\Documents\\Esimed\\Projet 2019\\AboMag\\AboMag.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Baptiste Lequeu\\Documents\\Esimed\\Projet 2019\\AboMag\\AboMag\\AboMag.csproj",
+        "projectUniqueName": "C:\\Users\\Baptiste Lequeu\\Documents\\Esimed\\Projet 2019\\AboMag\\AboMag.csproj",
         "projectName": "AboMag",
-        "projectPath": "C:\\Users\\Baptiste Lequeu\\Documents\\Esimed\\Projet 2019\\AboMag\\AboMag\\AboMag.csproj",
+        "projectPath": "C:\\Users\\Baptiste Lequeu\\Documents\\Esimed\\Projet 2019\\AboMag\\AboMag.csproj",
         "packagesPath": "C:\\Users\\Baptiste Lequeu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Baptiste Lequeu\\Documents\\Esimed\\Projet 2019\\AboMag\\AboMag\\obj\\",
+        "outputPath": "C:\\Users\\Baptiste Lequeu\\Documents\\Esimed\\Projet 2019\\AboMag\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

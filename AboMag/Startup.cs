@@ -41,7 +41,7 @@ namespace AboMag
 
             services.AddEntityFrameworkNpgsql()
                 .AddDbContext<AboMagContext>(options
-                => options.UseNpgsql(Configuration.GetConnectionString("AboMag")));
+                => options.UseNpgsql(Configuration.GetConnectionString("AboMagConnection")));
             
         }
 
