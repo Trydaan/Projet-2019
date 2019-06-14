@@ -3,15 +3,17 @@ using System;
 using AboMag.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace AboMag.Migrations
 {
     [DbContext(typeof(AboMagContext))]
-    partial class AboMagContextModelSnapshot : ModelSnapshot
+    [Migration("20190612141649_Publication")]
+    partial class Publication
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

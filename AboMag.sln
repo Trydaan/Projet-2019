@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29001.49
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboMag", "AboMag\AboMag.csproj", "{FCF8A6B9-A161-419D-A365-C4436460B37F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AboMag", "AboMag\AboMag.csproj", "{FCF8A6B9-A161-419D-A365-C4436460B37F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboMagAdmin", "AboMagAdmin\AboMagAdmin.csproj", "{ED8161BB-969B-4645-9277-29F46EB60D23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{FCF8A6B9-A161-419D-A365-C4436460B37F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCF8A6B9-A161-419D-A365-C4436460B37F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCF8A6B9-A161-419D-A365-C4436460B37F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED8161BB-969B-4645-9277-29F46EB60D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED8161BB-969B-4645-9277-29F46EB60D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED8161BB-969B-4645-9277-29F46EB60D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED8161BB-969B-4645-9277-29F46EB60D23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

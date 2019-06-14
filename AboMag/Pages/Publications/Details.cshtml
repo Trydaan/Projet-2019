@@ -1,0 +1,49 @@
+﻿@page
+@model AboMag.Pages.Publications.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Publication</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Publication.Titre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Publication.Titre)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Publication.NbNumero)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Publication.NbNumero)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Publication.Couverture)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Publication.Couverture)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Publication.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Publication.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Publication.PrixAnnuel)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Publication.PrixAnnuel)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Publication.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

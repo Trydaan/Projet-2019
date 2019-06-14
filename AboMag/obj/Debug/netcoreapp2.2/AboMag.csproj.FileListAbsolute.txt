@@ -68,3 +68,8 @@ C:\Users\Baptiste Lequeu\Documents\Esimed\Projet 2019\AboMag\obj\Debug\netcoreap
 C:\Users\Baptiste Lequeu\Documents\Esimed\Projet 2019\AboMag\obj\Debug\netcoreapp2.2\AboMag.dll
 C:\Users\Baptiste Lequeu\Documents\Esimed\Projet 2019\AboMag\obj\Debug\netcoreapp2.2\AboMag.pdb
 C:\Users\Baptiste Lequeu\Documents\Esimed\Projet 2019\AboMag\obj\Debug\netcoreapp2.2\AboMag.csproj.CopyComplete
+C:\Users\Baptiste Lequeu\Documents\Esimed\Projet 2019\AboMag\obj\Debug\netcoreapp2.2\Razor\Pages\Publications\Create.g.cshtml.cs
+C:\Users\Baptiste Lequeu\Documents\Esimed\Projet 2019\AboMag\obj\Debug\netcoreapp2.2\Razor\Pages\Publications\Delete.g.cshtml.cs
+C:\Users\Baptiste Lequeu\Documents\Esimed\Projet 2019\AboMag\obj\Debug\netcoreapp2.2\Razor\Pages\Publications\Details.g.cshtml.cs
+C:\Users\Baptiste Lequeu\Documents\Esimed\Projet 2019\AboMag\obj\Debug\netcoreapp2.2\Razor\Pages\Publications\Edit.g.cshtml.cs
+C:\Users\Baptiste Lequeu\Documents\Esimed\Projet 2019\AboMag\obj\Debug\netcoreapp2.2\Razor\Pages\Publications\Index.g.cshtml.cs

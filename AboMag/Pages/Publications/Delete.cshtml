@@ -1,0 +1,52 @@
+﻿@page
+@model AboMag.Pages.Publications.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Publication</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Publication.Titre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Publication.Titre)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Publication.NbNumero)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Publication.NbNumero)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Publication.Couverture)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Publication.Couverture)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Publication.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Publication.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Publication.PrixAnnuel)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Publication.PrixAnnuel)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Publication.Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>
